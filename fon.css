@@ -23,10 +23,19 @@
     margin: 0;
   }
   
-  ul {
+  a {
+    text-decoration: none;
+    }
+    
+    ul {
     list-style-type: none;
     margin: 0;
-  }
+    padding-left: 0;
+    }
+    
+    img {
+    display: block;
+    }
 
 .container{
 align-items: center;
@@ -36,6 +45,17 @@ width: auto;
 height: auto;
 text-align: center;
 background-color: #3a3df8;
+background-image: url('./img/Animation\ -\ 1741662808408.gif');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+image-rendering: crisp-edges; /* Улучшает отображение пиксельных изображений */
+-webkit-image-rendering: crisp-edges;
+-moz-image-rendering: crisp-edges;
+-o-image-rendering: crisp-edges;
+opacity: 0.6;
+font-weight: bold;
+background-clip: text;
 }
 
 .link-ul{
@@ -48,16 +68,15 @@ padding-bottom: 40px;
 }
 
 .fon-galery{
-    display: block;
-    align-items: center;
+display: block;
+align-items: center;
 font-size: medium;
 width: 300px;
-color: #51f073;
-background-color: #e01111;
+color: #ff1df4;
+background-color: #aef72f;
 border: 10px;
 margin-top: auto;
 margin-left: auto;
 margin-right: auto;
 border-radius: 10px;
 }
-
